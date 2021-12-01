@@ -1,0 +1,63 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100px;
+  text-align: center;
+  background-color: #b0b3bd;
+}
+
+.filtro {
+  text-align: left;
+}
+
+div {
+  margin: 3%;
+  display: block;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+.button {
+  margin-top: 0 auto;
+  background: #14213d;
+  color: rgb(255, 255, 255);
+  width: 100px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+:root {
+  --card-color: rgba(54, 0, 204, 0.555);
+  --card-header-color: crimson;
+  --card-body-color: rgb(40, 4, 124);
+  --card-footer-color: indigo;
+}
+
+.card {
+  margin: 0 auto;
+  background: var(--card-color);
+  color: rgb(255, 255, 255);
+  width: 450px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
