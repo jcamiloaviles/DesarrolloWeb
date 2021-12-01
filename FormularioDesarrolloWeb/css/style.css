@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-register {
+  width: 460px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 10px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controles {
+  border: 2px solid #1f53c5;
+  background: 24303c;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.controlesSemestre {
+  border: 2px solid #1f53c5;
+  background: 24303c;
+  border-radius: 4px;
+}
+
+.controls {
+  width: 100%;
+  background: 24303c;
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  border: 2px solid #1f53c5;
+}

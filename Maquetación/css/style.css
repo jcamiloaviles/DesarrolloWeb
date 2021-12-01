@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background: rgb(99, 231, 225);
+}
+
+footer {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+nav {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  overflow: hidden;
+  background-color: white;
+}
+
+section {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  overflow: hidden;
+}
+
+body nav {
+  float: right;
+  width: 100%;
+}
+
+nav ul {
+  overflow: hidden;
+}
+nav ul li {
+  border-left: 1px solid black;
+  border-right: 0px solid black;
+  float: right;
+  width: 6.667%;
+  overflow: hidden;
+}
+nav ul li a {
+  display: block;
+  height: 70px;
+  align-content: center;
+  padding-top: 20px;
+  overflow: hidden;
+  color: rgb(99, 96, 96);
+}
+
+header {
+  height: 100px;
+  overflow: hidden;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color: white;
+}
+
+.articlehtml {
+  background-color: white;
+  float: left;
+  width: 60%;
+  height: 20px;
+  padding-left: 15px;
+  padding-top: 3px;
+  font-weight: bold;
+  font-family: Arial;
+}
+section article {
+  background-color: white;
+  height: 135px;
+  float: left;
+  width: 60%;
+  padding-left: 15px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+section article img {
+  float: left;
+  overflow: hidden;
+  border: 1px solid rgb(46, 198, 218);
+  max-width: 100%;
+  width: 11%;
+  margin-right: 5px;
+}
+
+section aside {
+  background-color: white;
+  height: 425px;
+  float: right top;
+  width: 40%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+footer {
+  background-color: white;
+  height: 90px;
+  padding-left: 15px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+footer div img {
+  border: 1px solid rgb(46, 198, 218);
+  margin-right: 10px;
+  margin-top: 6px;
+  overflow: hidden;
+  max-width: 100%;
+  width: 8%;
+}
+
+h2 {
+  margin-right: 70px;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.parr1,
+.parr2,
+.parr3 {
+  font-weight: bold;
+}
+
+.juan {
+  width: 300px;
+  height: 180px;
+  margin-top: 10px;
+  margin-left: 120px;
+  overflow: hidden;
+}
+
+.avatar {
+  float: right;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.bordediv {
+  border: 1px solid rgb(141, 138, 138);
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.button1 {
+  border-bottom-color: lawngreen;
+  border-left-color: lawngreen;
+  border-right-color: lawngreen;
+  border-top-color: lawngreen;
+  background-color: white;
+  color: lawngreen;
+  font-size: 13px;
+  width: 192px;
+  height: 30px;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-family: Arial;
+  font-weight: bolder;
+  cursor: pointer;
+  overflow: hidden;
+}
+.button2 {
+  border-bottom-color: red;
+  border-left-color: red;
+  border-right-color: red;
+  border-top-color: red;
+  background-color: white;
+  color: red;
+  font-size: 13px;
+  width: 192px;
+  height: 30px;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-family: Arial;
+  font-weight: bolder;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.tabla {
+  margin: auto;
+  overflow: hidden;
+}
+
+.derecha {
+  border-right: 1px solid black;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  overflow: hidden;
+}
+.h4aside {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.h2aside {
+  font-family: Arial;
+  font-size: 12px;
+  margin-top: 4px;
+  color: darkgrey;
+}
+
+.paside {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.header1 {
+  margin-top: 35px;
+  font-family: Verdana;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.derecha {
+  border-left: 1px solid black;
+  overflow: hidden;
+}
+
+.tabla {
+  overflow: hidden;
+}
